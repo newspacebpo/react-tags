@@ -419,8 +419,8 @@ var ReactTags = function (_Component) {
         _react2.default.createElement(
           'div',
           { className: this.state.classNames.selected },
-          tagItems,
-          this.props.inline && tagInput
+          this.props.inline && tagInput,
+          tagItems
         ),
         !this.props.inline && tagInput
       );

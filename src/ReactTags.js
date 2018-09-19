@@ -425,8 +425,8 @@ class ReactTags extends Component {
     return (
       <div className={this.state.classNames.tags}>
         <div className={this.state.classNames.selected}>
-          {tagItems}
           {this.props.inline && tagInput}
+          {tagItems}
         </div>
         {!this.props.inline && tagInput}
       </div>
